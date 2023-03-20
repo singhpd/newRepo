@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar+ box+ positions</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar{
+           background-color: rgb(65, 51, 158);
+           color: aliceblue;
+
+           border-radius: 33px;
+           
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 18px 37px;
+            height: 15px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            cursor: pointer;
+
+        }
+        .navbar li a:hover{
+            color: black;
+        }
+        #searchbox{
+            float: right;
+            margin-top: 15px;
+            margin-right: 93px;
+            padding: 3px 35px;
+            border-radius: 20px;
+        }
+        .navbar img{
+            height: 49px;
+            float: right;
+            margin-right: 28px;
+            border-radius: 44px;
+
+        }
+        .navbar h2{
+            float: right;
+            margin-right: 22px;
+            padding: 23px 33pox;
+            
+        }
+        
+        .box{
+            border: 5px solid red;
+            margin: 4px;
+            padding: 23px;
+            width: 30%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        
+
+        
+        .container{
+            margin: auto;
+            width: 920px;
+            height: 6000px;
+            background-color: bisque;
+
+        }
+        #box3{
+            bo: ;
+            position: fixed;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+       
+         <nav class="navbar">
+            <img  src="https://expertphotography.b-cdn.net/wp-content/uploads/2019/05/beautiful-photography-man-sitting-in-front-of-lake.jpg" alt="">
+            <h2>Pcoding.com</h2>
+              <ul>
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Contact Us</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Courses</a></li>
+                  <div>
+                      <input type="text" name="searchbox" id="searchbox" placeholder="YOUR THINGS" >
+                    </header>
+                  </div>
+                  <div class="container">
+                      
+                
+                        <div class="box"  id="box1"  >
+                        <h3 class="h3">Ploting And Dividing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam nemo vero cumque qui eligendi unde libero voluptatem laborum reiciendis maxime reprehenderit a velit ipsam corporis consequatur, dignissimos nostrum laudantium. Quod ut nemo in laboriosam deleniti. Vel repellat, reiciendis debitis dolorem illum aspernatur accusamus minus minima exercitationem soluta corrupti nihil laborum cumque maiores ea.</p>
+                    </div>
+                    <div class="box" id="box2" >
+                        <h3>NO and Dividing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam nemo vero cumque qui eligendi unde libero voluptatem laborum reiciendis maxime reprehenderit a velit ipsam corporis consequatur, dignissimos nostrum laudantium. Quod ut nemo in laboriosam deleniti. Vel repellat, reiciendis debitis dolorem illum aspernatur accusamus minus minima exercitationem soluta corrupti nihil laborum cumque maiores ea.</p>
+                    </div>
+                    <div class="box" id="box3" >
+                        <h3>UNDERSTANDING</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam nemo vero cumque qui eligendi unde libero voluptatem laborum reiciendis maxime reprehenderit a velit ipsam corporis consequatur, dignissimos nostrum laudantium. Quod ut nemo in laboriosam deleniti. Vel repellat, reiciendis debitis dolorem illum aspernatur accusamus minus minima exercitationem soluta corrupti nihil laborum cumque maiores ea.</p>
+                    </div>
+
+
+
+
+                  </div>
+
+            
+              </ul>
+         </nav>
+    
+</body>
+</html>
